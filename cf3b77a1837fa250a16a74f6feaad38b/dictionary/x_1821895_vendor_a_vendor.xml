@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0f8284f183bfa250a16a74f6feaad318" label="Vendor" max_length="40" name="x_1821895_vendor_a_vendor" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="in_review" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending verification" sequence="3" value="pending_verification"/>
+                <element inactive_on_update="false" label="In Review" sequence="2" value="in_review"/>
+                <element inactive_on_update="false" label="Inactive" value="active"/>
+                <element inactive_on_update="false" label="Inactive" value="active"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="consultant" display="true" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Partner" sequence="2" value="partner"/>
+                <element inactive_on_update="false" label="Supplier" sequence="3" value="supplier"/>
+                <element inactive_on_update="false" label="Consultant" sequence="0" value="consultant"/>
+                <element inactive_on_update="false" label="Contractor" sequence="1" value="contractor"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name " max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="contact details" max_length="4000" name="contact_details" type="string"/>
+    </element>
+</database>

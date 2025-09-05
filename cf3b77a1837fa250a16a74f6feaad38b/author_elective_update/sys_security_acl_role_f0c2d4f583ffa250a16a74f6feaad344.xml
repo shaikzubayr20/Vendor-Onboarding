@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 18:39:53</sys_created_on>
+        <sys_id>f0c2d4f583ffa250a16a74f6feaad344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1821895_vendor_a.compliance_officer</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_security_acl display_value="">1fb2d8b583ffa250a16a74f6feaad345</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f0c2d4f583ffa250a16a74f6feaad344</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 18:39:53</sys_updated_on>
+        <sys_user_role display_value="x_1821895_vendor_a.compliance_officer" name="x_1821895_vendor_a.compliance_officer">7f8b3f69837fa250a16a74f6feaad348</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</application>
+        <file_path/>
+        <instance_id>910fd036dbb53950ae4c9027c5961905</instance_id>
+        <instance_name>dev184803</instance_name>
+        <name>sys_security_acl_role_f0c2d4f583ffa250a16a74f6feaad344</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-05 18:39:53</sys_created_on><sys_id>f0c2d4f583ffa250a16a74f6feaad344</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_1821895_vendor_a.compliance_officer</sys_name><sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package><sys_policy/><sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope><sys_security_acl display_value="">1fb2d8b583ffa250a16a74f6feaad345</sys_security_acl><sys_update_name>sys_security_acl_role_f0c2d4f583ffa250a16a74f6feaad344</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-05 18:39:53</sys_updated_on><sys_user_role display_value="x_1821895_vendor_a.compliance_officer" name="x_1821895_vendor_a.compliance_officer">7f8b3f69837fa250a16a74f6feaad348</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-378864515</payload_hash>
+        <record_name>.x_1821895_vendor_a.compliance_officer</record_name>
+        <reverted_from/>
+        <source>0f3b37a9837fa250a16a74f6feaad369</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 18:39:53</sys_created_on>
+        <sys_id>9a73987983ffa250a16a74f6feaad3e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1991b2d8aea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 18:39:53</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>9e739879ccffa250e024657343366edf</update_guid>
+        <update_guid_history>9e739879ccffa250e024657343366edf:-378864515</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_1821895_vendor_a.compliance_officer">c1569c3d83ffa250a16a74f6feaad34c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 18:52:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1c6dd89a6fab47049856df9d1ac9cc31</sys_id>
+        <sys_metadata>f0c2d4f583ffa250a16a74f6feaad344</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1821895_vendor_a.compliance_officer</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_scope_delete display_value="">02eaa6901e4346e58094b94e867332a1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_f0c2d4f583ffa250a16a74f6feaad344</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_f0c2d4f583ffa250a16a74f6feaad344">9a73987983ffa250a16a74f6feaad3e0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 18:52:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

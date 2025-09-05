@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5739c03d83bfa250a16a74f6feaad36c" label="Compliance Check" max_length="40" name="x_1821895_vendor_a_compliance_check" type="collection">
+        <element label="Date" max_length="40" name="date" type="calendar_date_time"/>
+        <element label="Reviewed By" max_length="32" name="reviewed_by" reference="sys_user" type="reference"/>
+        <element choice="3" label="Compliance Type" max_length="40" name="compliance_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Security Review" sequence="1" value="security_review"/>
+                <element inactive_on_update="false" label="Financial Check" sequence="0" value="financial_check"/>
+                <element inactive_on_update="false" label="Legal Review" sequence="3" value="legal_review"/>
+                <element inactive_on_update="false" label="Background Check" sequence="2" value="background_check"/>
+            </choice>
+        </element>
+        <element label="Vendor" max_length="32" name="vendor" reference="x_1821895_vendor_a_vendor" type="reference"/>
+        <element choice="1" default="pending" label="Result" max_length="40" name="result" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="2" value="pending"/>
+                <element inactive_on_update="false" label="Fail" sequence="1" value="fail"/>
+                <element inactive_on_update="false" label="Pass" sequence="0" value="pass"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="reviewed_by"/>
+        </index>
+        <index name="index2">
+            <element name="vendor"/>
+        </index>
+    </element>
+</database>

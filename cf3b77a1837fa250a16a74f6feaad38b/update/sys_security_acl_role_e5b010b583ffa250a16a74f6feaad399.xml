@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 18:34:33</sys_created_on>
+        <sys_id>e5b010b583ffa250a16a74f6feaad399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1821895_vendor_a.onboarding_manager</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_security_acl display_value="x_1821895_vendor_a_vendor_onboarding_request.status">33a050b583ffa250a16a74f6feaad3b2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e5b010b583ffa250a16a74f6feaad399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 18:34:33</sys_updated_on>
+        <sys_user_role display_value="x_1821895_vendor_a.onboarding_manager" name="x_1821895_vendor_a.onboarding_manager">2b8b37a9837fa250a16a74f6feaad382</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
