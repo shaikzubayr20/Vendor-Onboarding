@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1821895_vendor_a_vendor" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type</element>
+            <list_id display_value="x_1821895_vendor_a_vendor" element="NULL" name="x_1821895_vendor_a_vendor" parent="NULL" relationship="NULL" sys_domain="global" view="5a8da36288122210559020d480f9d250">6470f43d8373e250a16a74f6feaad347</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-05 20:46:28</sys_created_on>
+            <sys_id>6870f43d8373e250a16a74f6feaad349</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-05 20:46:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1821895_vendor_a_vendor</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-05 20:46:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6470f43d8373e250a16a74f6feaad347</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1821895_vendor_a_vendor</sys_name>
+            <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+            <sys_update_name>sys_ui_list_x_1821895_vendor_a_vendor_sys_ref_list</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-05 20:46:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">5a8da36288122210559020d480f9d250</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

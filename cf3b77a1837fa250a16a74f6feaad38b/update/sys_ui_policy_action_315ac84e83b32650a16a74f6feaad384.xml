@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>reason_for_rejection</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-06 12:39:08</sys_created_on>
+        <sys_id>315ac84e83b32650a16a74f6feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reason_for_rejection</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_315ac84e83b32650a16a74f6feaad384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-06 12:39:08</sys_updated_on>
+        <table>x_1821895_vendor_a_vendor_onboarding_request</table>
+        <ui_policy display_value="Show Rejection Reason when Status is Rejected">100a044e83b32650a16a74f6feaad3d0</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=315ac84e83b32650a16a74f6feaad384"/>
+</record_update>
