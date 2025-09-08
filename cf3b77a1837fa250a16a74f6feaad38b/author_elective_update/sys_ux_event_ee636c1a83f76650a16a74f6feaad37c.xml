@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>CALL_GREET_CLIENT_SCRIPT_</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Call greet client script </label>
+        <props>[]</props>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-07 09:20:48</sys_created_on>
+        <sys_id>ee636c1a83f76650a16a74f6feaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Call greet client script </sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_update_name>sys_ux_event_ee636c1a83f76650a16a74f6feaad37c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-07 09:20:48</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=ee636c1a83f76650a16a74f6feaad37c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</application>
+        <file_path/>
+        <instance_id>910fd036dbb53950ae4c9027c5961905</instance_id>
+        <instance_name>dev184803</instance_name>
+        <name>sys_ux_event_ee636c1a83f76650a16a74f6feaad37c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>CALL_GREET_CLIENT_SCRIPT_</event_name><explicit_api_name/><interfaces/><label>Call greet client script </label><props>[]</props><required_translations>[ ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-07 09:20:48</sys_created_on><sys_id>ee636c1a83f76650a16a74f6feaad37c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Call greet client script </sys_name><sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package><sys_policy/><sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope><sys_update_name>sys_ux_event_ee636c1a83f76650a16a74f6feaad37c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-07 09:20:48</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=ee636c1a83f76650a16a74f6feaad37c"/></record_update>]]></payload>
+        <payload_hash>1095420291</payload_hash>
+        <record_name>Call greet client script </record_name>
+        <reverted_from/>
+        <source>abda6c758373e250a16a74f6feaad3cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-07 09:20:48</sys_created_on>
+        <sys_id>00b6e812837b6650a16a74f6feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199237a67670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-07 09:20:48</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>c0b6e812697b66503469de3b3b26282e</update_guid>
+        <update_guid_history>c0b6e812697b66503469de3b3b26282e:1095420291</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-07 09:43:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>3398994e613b41b3a66d3579afe4fa01</sys_id>
+        <sys_metadata>ee636c1a83f76650a16a74f6feaad37c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Call greet client script </sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_scope_delete display_value="">02eaa6901e4346e58094b94e867332a1</sys_scope_delete>
+        <sys_update_name>sys_ux_event_ee636c1a83f76650a16a74f6feaad37c</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_ee636c1a83f76650a16a74f6feaad37c">00b6e812837b6650a16a74f6feaad32f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-07 09:43:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

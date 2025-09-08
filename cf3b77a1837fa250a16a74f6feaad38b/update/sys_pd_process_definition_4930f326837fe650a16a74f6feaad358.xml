@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>Vendor Onboarding Playbook</label>
+        <name>vendor_onboarding_playbook</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 18:39:43</sys_created_on>
+        <sys_id>4930f326837fe650a16a74f6feaad358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vendor Onboarding Playbook</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_update_name>sys_pd_process_definition_4930f326837fe650a16a74f6feaad358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 18:51:59</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_lane action="delete_multiple" query="process_definition=4930f326837fe650a16a74f6feaad358^sys_idNOT IN1bf98dd01bf985e01bf97de01bf98770,0635760063f9c00639690063d7e00635,be8eda0be84c80be8b880be82c90be8d,a4cac80a4ca300a4c8bb0a4c1490a4ca"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Triage</label>
+        <lane_condition/>
+        <name>new_stage</name>
+        <order>1</order>
+        <process_definition display_value="Vendor Onboarding Playbook">4930f326837fe650a16a74f6feaad358</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 18:40:11</sys_created_on>
+        <sys_id>1bf98dd01bf985e01bf97de01bf98770</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 18:46:20</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=1bf98dd01bf985e01bf97de01bf98770"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Compliance Review</label>
+        <lane_condition/>
+        <name>new_stage_1</name>
+        <order>2</order>
+        <process_definition display_value="Vendor Onboarding Playbook">4930f326837fe650a16a74f6feaad358</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 18:45:50</sys_created_on>
+        <sys_id>0635760063f9c00639690063d7e00635</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 18:46:34</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=0635760063f9c00639690063d7e00635"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>0635760063f9c00639690063d7e00635</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 18:45:50</sys_created_on>
+        <sys_id>7691b7a2837fe650a16a74f6feaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 18:45:50</sys_updated_on>
+        <value>1bf98dd01bf985e01bf97de01bf98770</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Final Manager Approval</label>
+        <lane_condition/>
+        <name>new_stage_2</name>
+        <order>3</order>
+        <process_definition display_value="Vendor Onboarding Playbook">4930f326837fe650a16a74f6feaad358</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 18:45:53</sys_created_on>
+        <sys_id>be8eda0be84c80be8b880be82c90be8d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 18:46:49</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=be8eda0be84c80be8b880be82c90be8d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>be8eda0be84c80be8b880be82c90be8d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 18:45:53</sys_created_on>
+        <sys_id>eb91b3a6837fe650a16a74f6feaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 18:45:53</sys_updated_on>
+        <value>0635760063f9c00639690063d7e00635</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Completed</label>
+        <lane_condition/>
+        <name>new_stage_3</name>
+        <order>4</order>
+        <process_definition display_value="Vendor Onboarding Playbook">4930f326837fe650a16a74f6feaad358</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 18:45:57</sys_created_on>
+        <sys_id>a4cac80a4ca300a4c8bb0a4c1490a4ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 18:47:01</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=a4cac80a4ca300a4c8bb0a4c1490a4ca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>a4cac80a4ca300a4c8bb0a4c1490a4ca</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 18:45:57</sys_created_on>
+        <sys_id>14a13326837fe650a16a74f6feaad358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 18:45:57</sys_updated_on>
+        <value>be8eda0be84c80be8b880be82c90be8d</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_activity action="delete_multiple" query="process_definition=4930f326837fe650a16a74f6feaad358"/>
+    <sys_pd_process_variant action="delete_multiple" query="process_definition=4930f326837fe650a16a74f6feaad358"/>
+    <sys_pd_trigger_instance action="delete_multiple" query="sys_id=5bcfd6205bcf8e205bcff7c05bcfaa40^sys_idNOT IN5bcfd6205bcf8e205bcff7c05bcfaa40"/>
+    <sys_pd_trigger_instance action="INSERT_OR_UPDATE">
+        <label/>
+        <name/>
+        <process_definition display_value="Vendor Onboarding Playbook">4930f326837fe650a16a74f6feaad358</process_definition>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 18:50:51</sys_created_on>
+        <sys_id>5bcfd6205bcf8e205bcff7c05bcfaa40</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 18:51:06</sys_updated_on>
+        <trigger_definition/>
+        <trigger_inputs/>
+        <trigger_type display_value="Record Create">ab6951170f1200108c87f4f0ff767e4f</trigger_type>
+    </sys_pd_trigger_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=5bcfd6205bcf8e205bcff7c05bcfaa40"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5bcfd6205bcf8e205bcff7c05bcfaa40"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_trigger_instance</document>
+        <document_key>5bcfd6205bcf8e205bcff7c05bcfaa40</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 18:50:51</sys_created_on>
+        <sys_id>04c2fbe6837fe650a16a74f6feaad334</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 18:51:06</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">2a8a7851ff2200108c8733af793bf131</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_trigger_instance</document>
+        <document_key>5bcfd6205bcf8e205bcff7c05bcfaa40</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 18:50:51</sys_created_on>
+        <sys_id>c4c2fbe6837fe650a16a74f6feaad334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 18:50:51</sys_updated_on>
+        <value>x_1821895_vendor_a_vendor_onboarding_request</value>
+        <variable display_value="Table">a8ae38d1ff2200108c8733af793bf15c</variable>
+    </sys_variable_value>
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>Vendor Onboarding Playbook</label>
+        <name>vendor_onboarding_playbook</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 18:39:43</sys_created_on>
+        <sys_id>4930f326837fe650a16a74f6feaad358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vendor Onboarding Playbook</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_update_name>sys_pd_process_definition_4930f326837fe650a16a74f6feaad358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 18:51:59</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+</record_update>

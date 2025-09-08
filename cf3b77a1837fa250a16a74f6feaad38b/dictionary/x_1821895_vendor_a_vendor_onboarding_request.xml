@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="fe25ccb583bfa250a16a74f6feaad332" label="Vendor Onboarding Request" max_length="40" name="x_1821895_vendor_a_vendor_onboarding_request" type="collection">
         <element active="false" attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Consultant" sequence="0" value="Consultant"/>
+                <element inactive_on_update="false" label="Supplier" sequence="3" value="Supplier"/>
+                <element inactive_on_update="false" label="Partner" sequence="2" value="Partner"/>
+                <element inactive_on_update="false" label="Contractor" sequence="1" value="Contractor"/>
+            </choice>
+        </element>
         <element label="Contact Email" mandatory="true" max_length="100" name="contact_email" type="string"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element label="New Vendor Name" max_length="40" name="new_vendor_name" type="string"/>
-        <element choice="1" default="draft" label="Status" max_length="40" name="status" type="choice">
+        <element choice="3" default="Submitted" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
                 <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
                 <element inactive_on_update="false" label="In Review" sequence="1" value="in_review"/>
-                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Submitted" sequence="0" value="draft"/>
             </choice>
         </element>
         <element label="Reason for rejection" max_length="255" name="reason_for_rejection" type="string"/>

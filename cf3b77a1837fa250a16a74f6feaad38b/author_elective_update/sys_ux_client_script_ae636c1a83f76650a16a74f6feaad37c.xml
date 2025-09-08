@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">a961801283b76650a16a74f6feaad3c8</macroponent>
+        <name>New client script 1</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[function handler({api, event, helpers, imports}) {
+    // --- Part 1: Calculate the greeting ---
+    const currentHour = new Date().getHours();
+    let greeting = '';
+
+    if (currentHour < 12) {
+        greeting = 'Good Morning';
+    } else if (currentHour < 17) {
+        // 17 represents 5:00 PM
+        greeting = 'Good Afternoon';
+    } else {
+        greeting = 'Good Evening';
+    }
+
+    // --- Part 2: Get the user's name ---
+    // This accesses the built-in session object to get the user's first name.
+    const userName = api.context.session.user.firstName;
+
+    // --- Part 3: Combine them and update the Client State Parameter ---
+    const personalizedGreeting = `${greeting}, ${userName}`;
+    api.setState('GreetingMessage', personalizedGreeting);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-07 09:20:49</sys_created_on>
+        <sys_id>ae636c1a83f76650a16a74f6feaad37c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_update_name>sys_ux_client_script_ae636c1a83f76650a16a74f6feaad37c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-07 09:37:18</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</application>
+        <file_path/>
+        <instance_id>910fd036dbb53950ae4c9027c5961905</instance_id>
+        <instance_name>dev184803</instance_name>
+        <name>sys_ux_client_script_ae636c1a83f76650a16a74f6feaad37c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;a961801283b76650a16a74f6feaad3c8&lt;/macroponent&gt;&lt;name&gt;New client script 1&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[function handler({api, event, helpers, imports}) {
+    // --- Part 1: Calculate the greeting ---
+    const currentHour = new Date().getHours();
+    let greeting = '';
+
+    if (currentHour &lt; 12) {
+        greeting = 'Good Morning';
+    } else if (currentHour &lt; 17) {
+        // 17 represents 5:00 PM
+        greeting = 'Good Afternoon';
+    } else {
+        greeting = 'Good Evening';
+    }
+
+    // --- Part 2: Get the user's name ---
+    // This accesses the built-in session object to get the user's first name.
+    const userName = api.context.session.user.firstName;
+
+    // --- Part 3: Combine them and update the Client State Parameter ---
+    const personalizedGreeting = `${greeting}, ${userName}`;
+    api.setState('GreetingMessage', personalizedGreeting);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-07 09:20:49&lt;/sys_created_on&gt;&lt;sys_id&gt;ae636c1a83f76650a16a74f6feaad37c&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;New client script 1&lt;/sys_name&gt;&lt;sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a"&gt;cf3b77a1837fa250a16a74f6feaad38b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Vendor Onboarding"&gt;cf3b77a1837fa250a16a74f6feaad38b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_ae636c1a83f76650a16a74f6feaad37c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-07 09:37:18&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2106495370</payload_hash>
+        <record_name>New client script 1</record_name>
+        <reverted_from/>
+        <source>abda6c758373e250a16a74f6feaad3cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-07 09:37:18</sys_created_on>
+        <sys_id>f57aac12837b6650a16a74f6feaad3dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199238983f60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-07 09:37:18</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>7d7aac12867b6650f06c40843438b1db</update_guid>
+        <update_guid_history>7d7aac12867b6650f06c40843438b1db:2106495370,9d6aa456537b66505c69259d6f89fec8:227640682,08b6e812637b6650f94e73ca36ba3c35:360149088</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-07 09:55:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>1e2f8c571e0f42a6923fac346c0583e4</sys_id>
+        <sys_metadata>ae636c1a83f76650a16a74f6feaad37c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_scope_delete display_value="">02eaa6901e4346e58094b94e867332a1</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_ae636c1a83f76650a16a74f6feaad37c</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_ae636c1a83f76650a16a74f6feaad37c">f57aac12837b6650a16a74f6feaad3dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-07 09:55:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

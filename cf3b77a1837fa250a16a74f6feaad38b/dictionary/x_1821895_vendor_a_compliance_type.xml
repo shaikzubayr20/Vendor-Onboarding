@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1e39a61a83f3a650a16a74f6feaad36d" label="Compliance Type" max_length="40" name="x_1821895_vendor_a_compliance_type" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Active" max_length="40" name="active" type="string"/>
+    </element>
+</database>
