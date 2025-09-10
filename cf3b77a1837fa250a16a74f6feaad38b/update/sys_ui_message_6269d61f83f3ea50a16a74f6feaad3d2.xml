@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code>playbook_8c3440df83b7aa50a16a74f6feaad3e8</code>
+        <commented_message/>
+        <key>Onboarding Failed</key>
+        <language>en</language>
+        <message>Onboarding Failed</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 20:15:59</sys_created_on>
+        <sys_id>6269d61f83f3ea50a16a74f6feaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Onboarding Failed</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_update_name>sys_ui_message_6269d61f83f3ea50a16a74f6feaad3d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 20:15:59</sys_updated_on>
+    </sys_ui_message>
+</record_update>
