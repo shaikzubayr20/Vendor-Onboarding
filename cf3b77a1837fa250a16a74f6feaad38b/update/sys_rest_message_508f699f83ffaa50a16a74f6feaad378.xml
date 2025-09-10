@@ -5,23 +5,23 @@
         <basic_auth_password/>
         <basic_auth_profile/>
         <basic_auth_user/>
-        <description>https://api.gstincheck.co.in/api/v1/</description>
+        <description/>
         <name>GSTIN Check Verification</name>
         <oauth2_profile/>
         <protocol_name/>
-        <rest_endpoint>https://api.gstincheck.co.in/api/v1/</rest_endpoint>
+        <rest_endpoint>http://sheet.gstincheck.co.in/check/6079b906635d2b898ded17cdb27e8934/${gstin_number}</rest_endpoint>
         <sys_class_name>sys_rest_message</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 13:52:59</sys_created_on>
-        <sys_id>7481015b833faa50a16a74f6feaad377</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2025-09-10 17:13:23</sys_created_on>
+        <sys_id>508f699f83ffaa50a16a74f6feaad378</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>GSTIN Check Verification</sys_name>
         <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
-        <sys_update_name>sys_rest_message_7481015b833faa50a16a74f6feaad377</sys_update_name>
+        <sys_update_name>sys_rest_message_508f699f83ffaa50a16a74f6feaad378</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 13:52:59</sys_updated_on>
+        <sys_updated_on>2025-09-10 17:55:05</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="DELETE">
+        <name>Authorization</name>
+        <rest_message display_value="GSTIN Check Verification">7481015b833faa50a16a74f6feaad377</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 14:02:22</sys_created_on>
+        <sys_id>3d838d1b833faa50a16a74f6feaad323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Authorization</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_update_name>sys_rest_message_headers_3d838d1b833faa50a16a74f6feaad323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 14:02:22</sys_updated_on>
+        <value>Bearer ff16ceebcac13c48d29b780cbd5b83fa</value>
+    </sys_rest_message_headers>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</application>
+        <file_path/>
+        <instance_id>910fd036dbb53950ae4c9027c5961905</instance_id>
+        <instance_name>dev184803</instance_name>
+        <name>sys_rest_message_headers_3d838d1b833faa50a16a74f6feaad323</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers"><sys_rest_message_headers action="INSERT_OR_UPDATE"><name>Authorization</name><rest_message display_value="GSTIN Check Verification">7481015b833faa50a16a74f6feaad377</rest_message><sys_class_name>sys_rest_message_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-10 14:02:22</sys_created_on><sys_id>3d838d1b833faa50a16a74f6feaad323</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Authorization</sys_name><sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package><sys_policy/><sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope><sys_update_name>sys_rest_message_headers_3d838d1b833faa50a16a74f6feaad323</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-10 14:02:22</sys_updated_on><value>Bearer ff16ceebcac13c48d29b780cbd5b83fa</value></sys_rest_message_headers></record_update>]]></payload>
+        <payload_hash>1683472274</payload_hash>
+        <record_name>Authorization</record_name>
+        <reverted_from/>
+        <source>abda6c758373e250a16a74f6feaad3cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 14:02:22</sys_created_on>
+        <sys_id>75e3455b833faa50a16a74f6feaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19933ef45400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 14:02:22</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>79e3455b2a3faa50e72ac0422dab4032</update_guid>
+        <update_guid_history>79e3455b2a3faa50e72ac0422dab4032:1683472274</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 17:12:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_headers">sys_rest_message_headers</sys_db_object>
+        <sys_id>17f56d7b4b20412899db9fbe6fa4ce40</sys_id>
+        <sys_metadata>3d838d1b833faa50a16a74f6feaad323</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Authorization</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_scope_delete display_value="">02eaa6901e4346e58094b94e867332a1</sys_scope_delete>
+        <sys_update_name>sys_rest_message_headers_3d838d1b833faa50a16a74f6feaad323</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_headers_3d838d1b833faa50a16a74f6feaad323">75e3455b833faa50a16a74f6feaad333</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 17:12:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
