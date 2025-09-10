@@ -9,6 +9,13 @@
                 <element inactive_on_update="false" label="Contractor" sequence="1" value="Contractor"/>
             </choice>
         </element>
+        <element choice="3" label="Final Compliance Status" max_length="40" name="final_compliance_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Failed" sequence="2" value="failed"/>
+                <element inactive_on_update="false" label="Passed" sequence="1" value="passed"/>
+            </choice>
+        </element>
         <element label="Internal Sponsor" max_length="32" name="internal_sponsor" reference="sys_user" type="reference"/>
         <element label="Contact Email" mandatory="true" max_length="100" name="contact_email" type="string"/>
         <element label="GST Number" max_length="40" name="gst_number" type="string"/>

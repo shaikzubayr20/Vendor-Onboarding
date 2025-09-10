@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type/>
+        <badge/>
+        <category/>
+        <description/>
+        <experience_display_preferences/>
+        <input_display_preferences/>
+        <inputs/>
+        <label>no problem</label>
+        <name>no_problem</name>
+        <outputs/>
+        <required_roles/>
+        <source>675a561683b3a650a16a74f6feaad3c0</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 18:43:00</sys_created_on>
+        <sys_id>8ef382db8373ea50a16a74f6feaad340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>no problem</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_8ef382db8373ea50a16a74f6feaad340</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 18:43:00</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=8ef382db8373ea50a16a74f6feaad340"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8ef382db8373ea50a16a74f6feaad340"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_675a561683b3a650a16a74f6feaad3c0^id=8ef382db8373ea50a16a74f6feaad340"/>
+</record_update>
