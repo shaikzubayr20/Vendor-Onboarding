@@ -10,7 +10,8 @@
                 <element inactive_on_update="false" label="Background Check" sequence="2" value="background_check"/>
             </choice>
         </element>
-        <element label="Vendor" max_length="32" name="vendor" reference="x_1821895_vendor_a_vendor" type="reference"/>
+        <element label="GST Number" max_length="40" name="gst_number" type="string"/>
+        <element display="true" label="Vendor" max_length="32" name="vendor" reference="x_1821895_vendor_a_vendor" type="reference"/>
         <element choice="1" default="pending" label="Result" max_length="40" name="result" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Pending" sequence="2" value="pending"/>

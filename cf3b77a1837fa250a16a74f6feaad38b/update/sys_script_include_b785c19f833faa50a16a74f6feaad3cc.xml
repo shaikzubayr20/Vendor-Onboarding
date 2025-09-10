@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1821895_vendor_a.GSTValidator</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GSTValidator</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var GSTValidator = Class.create();
+GSTValidator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    validateGSTNumber: function() {
+        var gstin = this.getParameter('sysparm_gst_number');
+        if (!gstin) {
+            return 'false';
+        }
+
+        try {
+            // Use the REST Message we already created
+            var restMsg = new sn_ws.RESTMessageV2('GSTIN Check Verification', 'Verify GSTIN');
+            restMsg.setStringParameterNoEscape('gstin', gstin);
+
+            var response = restMsg.execute();
+            var httpStatus = response.getStatusCode();
+
+            if (httpStatus == 200) {
+                var responseObj = JSON.parse(response.getBody());
+                // The API returns a 'flag' field which is true for a valid GSTIN
+                if (responseObj.flag === true) {
+                    return 'true'; // It's valid
+                }
+            }
+            // If status is not 200 or flag is not true, it's invalid
+            return 'false';
+
+        } catch (ex) {
+            gs.error('GST Validation failed: ' + ex.getMessage());
+            return 'false';
+        }
+    },
+
+    type: 'GSTValidator'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 14:10:32</sys_created_on>
+        <sys_id>b785c19f833faa50a16a74f6feaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GSTValidator</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_update_name>sys_script_include_b785c19f833faa50a16a74f6feaad3cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 14:10:32</sys_updated_on>
+    </sys_script_include>
+</record_update>

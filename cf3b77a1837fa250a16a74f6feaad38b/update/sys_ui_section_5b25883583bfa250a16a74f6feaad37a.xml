@@ -4,13 +4,13 @@
             <element>requester</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-07 17:10:35</sys_created_on>
-            <sys_id>65325a9a8373a650a16a74f6feaad399</sys_id>
+            <sys_created_on>2025-09-10 13:13:09</sys_created_on>
+            <sys_id>b4a8b41f83fbaa50a16a74f6feaad31a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1821895_vendor_a_vendor_onboarding_request" sys_domain="global" view="Default view">5b25883583bfa250a16a74f6feaad37a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-07 17:10:35</sys_updated_on>
+            <sys_updated_on>2025-09-10 13:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,125 +18,139 @@
             <element>new_vendor_name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-07 17:10:35</sys_created_on>
-            <sys_id>a1325a9a8373a650a16a74f6feaad39a</sys_id>
+            <sys_created_on>2025-09-10 13:13:09</sys_created_on>
+            <sys_id>74a8b41f83fbaa50a16a74f6feaad31b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1821895_vendor_a_vendor_onboarding_request" sys_domain="global" view="Default view">5b25883583bfa250a16a74f6feaad37a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-07 17:10:35</sys_updated_on>
+            <sys_updated_on>2025-09-10 13:13:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gst_number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-10 13:13:09</sys_created_on>
+            <sys_id>7ca8b41f83fbaa50a16a74f6feaad31b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1821895_vendor_a_vendor_onboarding_request" sys_domain="global" view="Default view">5b25883583bfa250a16a74f6feaad37a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-10 13:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>contact_email</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-07 17:10:35</sys_created_on>
-            <sys_id>a9325a9a8373a650a16a74f6feaad39a</sys_id>
+            <sys_created_on>2025-09-10 13:13:09</sys_created_on>
+            <sys_id>74a8b41f83fbaa50a16a74f6feaad31c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1821895_vendor_a_vendor_onboarding_request" sys_domain="global" view="Default view">5b25883583bfa250a16a74f6feaad37a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-07 17:10:35</sys_updated_on>
+            <sys_updated_on>2025-09-10 13:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>verification_result</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-07 17:10:35</sys_created_on>
-            <sys_id>a1325a9a8373a650a16a74f6feaad39b</sys_id>
+            <sys_created_on>2025-09-10 13:13:09</sys_created_on>
+            <sys_id>7ca8b41f83fbaa50a16a74f6feaad31c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1821895_vendor_a_vendor_onboarding_request" sys_domain="global" view="Default view">5b25883583bfa250a16a74f6feaad37a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-07 17:10:35</sys_updated_on>
+            <sys_updated_on>2025-09-10 13:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>request_date</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-07 17:10:35</sys_created_on>
-            <sys_id>a9325a9a8373a650a16a74f6feaad39b</sys_id>
+            <sys_created_on>2025-09-10 13:13:09</sys_created_on>
+            <sys_id>74a8b41f83fbaa50a16a74f6feaad31d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1821895_vendor_a_vendor_onboarding_request" sys_domain="global" view="Default view">5b25883583bfa250a16a74f6feaad37a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-07 17:10:35</sys_updated_on>
+            <sys_updated_on>2025-09-10 13:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-07 17:10:35</sys_created_on>
-            <sys_id>a1325a9a8373a650a16a74f6feaad39c</sys_id>
+            <sys_created_on>2025-09-10 13:13:09</sys_created_on>
+            <sys_id>7ca8b41f83fbaa50a16a74f6feaad31d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1821895_vendor_a_vendor_onboarding_request" sys_domain="global" view="Default view">5b25883583bfa250a16a74f6feaad37a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-07 17:10:35</sys_updated_on>
+            <sys_updated_on>2025-09-10 13:13:09</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>vendor</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-07 17:10:35</sys_created_on>
-            <sys_id>a9325a9a8373a650a16a74f6feaad39c</sys_id>
+            <sys_created_on>2025-09-10 13:13:09</sys_created_on>
+            <sys_id>74a8b41f83fbaa50a16a74f6feaad31e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1821895_vendor_a_vendor_onboarding_request" sys_domain="global" view="Default view">5b25883583bfa250a16a74f6feaad37a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-07 17:10:35</sys_updated_on>
+            <sys_updated_on>2025-09-10 13:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>status</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-07 17:10:35</sys_created_on>
-            <sys_id>a1325a9a8373a650a16a74f6feaad39d</sys_id>
+            <sys_created_on>2025-09-10 13:13:09</sys_created_on>
+            <sys_id>7ca8b41f83fbaa50a16a74f6feaad31e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1821895_vendor_a_vendor_onboarding_request" sys_domain="global" view="Default view">5b25883583bfa250a16a74f6feaad37a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-07 17:10:35</sys_updated_on>
+            <sys_updated_on>2025-09-10 13:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reason_for_rejection</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-07 17:10:35</sys_created_on>
-            <sys_id>a9325a9a8373a650a16a74f6feaad39d</sys_id>
+            <sys_created_on>2025-09-10 13:13:09</sys_created_on>
+            <sys_id>74a8b41f83fbaa50a16a74f6feaad31f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1821895_vendor_a_vendor_onboarding_request" sys_domain="global" view="Default view">5b25883583bfa250a16a74f6feaad37a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-07 17:10:35</sys_updated_on>
+            <sys_updated_on>2025-09-10 13:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>type</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-07 17:10:35</sys_created_on>
-            <sys_id>a1325a9a8373a650a16a74f6feaad39e</sys_id>
+            <sys_created_on>2025-09-10 13:13:09</sys_created_on>
+            <sys_id>7ca8b41f83fbaa50a16a74f6feaad31f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1821895_vendor_a_vendor_onboarding_request" sys_domain="global" view="Default view">5b25883583bfa250a16a74f6feaad37a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-07 17:10:35</sys_updated_on>
+            <sys_updated_on>2025-09-10 13:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

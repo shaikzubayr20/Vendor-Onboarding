@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="INSERT_OR_UPDATE">
+        <name>Authorization</name>
+        <rest_message display_value="GSTIN Check Verification">7481015b833faa50a16a74f6feaad377</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 14:02:22</sys_created_on>
+        <sys_id>3d838d1b833faa50a16a74f6feaad323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Authorization</sys_name>
+        <sys_package display_value="Vendor Onboarding" source="x_1821895_vendor_a">cf3b77a1837fa250a16a74f6feaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor Onboarding">cf3b77a1837fa250a16a74f6feaad38b</sys_scope>
+        <sys_update_name>sys_rest_message_headers_3d838d1b833faa50a16a74f6feaad323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 14:02:22</sys_updated_on>
+        <value>Bearer ff16ceebcac13c48d29b780cbd5b83fa</value>
+    </sys_rest_message_headers>
+</record_update>
